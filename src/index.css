@@ -5,61 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #1e2f65;
 }
-body.dark-mode {
-  background-color: #1d1e26;
-  color: rgba(255,255,255,0.6);
-}
-body.dark-mode .card {
-  background-color: rgba(33,37,41,1);
-  border-color: #666;
-}
-body.dark-mode .card-header {
-  background-color: rgba(55,65,70,1);
-  border-color: #444;
-}
-body.dark-mode .content-text {
-  background-color: rgba(70,78,89,1);
-}
-body.dark-mode .modal {
-  color:#444;
-}
-body.dark-mode .form-floating input {
-  background-color: rgba(70,78,89,1);
-}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-.usernameDiv {
-  padding-left:6px;
-  padding-right:6px;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.form-signin {
-  max-width: 330px;
-  padding: 15px;
-}
-
-.form-signin .form-floating:focus-within {
-  z-index: 2;
-}
-.form-signin input {
-  margin-bottom: 10px;
-}
-.signin {
-  text-align: center !important;
-  display: flex;
-  align-items: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-.card-text button{
-  text-decoration: none;
-  background-color: transparent;
-  border:none;
-  color:blue;
 }
